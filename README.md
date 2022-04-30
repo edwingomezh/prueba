@@ -46,15 +46,17 @@ http://localhost:8000/api/delTracks/?id=1611056166
 
 ---
 
-3. Un punto final para agregar nuevas pistas usando ORM.
+4. Un punto final para agregar nuevas pistas usando ORM.
 
 Se desarrollo un endpoint para agregar nuevas pistas mediante ORM django, los parametros se envian mediante método GET.
 
-Se crea el endpoint delTracks
+Se crea el endpoint insertTracks
 
 Debe ser invocado de la siguiente manera, 
+
+NOTA: se pueden enviar todo los parámetros, o solo se pueden enviar algunos
 '''
-http://localhost:8000/api/delTracks/?id=1611056166
+http://localhost:8000/api/insertTracks/?id=1&artistName=edu&name=edwin&artistId=1
 '''
 
 - Y le resultado es en formato json.
