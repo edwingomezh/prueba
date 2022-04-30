@@ -29,3 +29,37 @@ http://localhost:8000/api/getTopTracks/
 
 ---
 
+
+3. Un punto final para eliminar una pista, usando un identificador dado (definido por usted)
+
+Se desarrollo punto final para eliminar un track a partir de un identificador, y este es enviados mediante método GET
+
+Se crea el endpoint delTracks
+
+Debe ser invocado de la siguiente manera, 
+'''
+http://localhost:8000/api/delTracks/?id=1611056166
+'''
+
+- Y le resultado es en formato json.
+---
+
+---
+
+3. Un punto final para agregar nuevas pistas usando ORM.
+
+Se desarrollo un endpoint para agregar nuevas pistas mediante ORM django, los parametros se envian mediante método GET.
+
+Se crea el endpoint delTracks
+
+Debe ser invocado de la siguiente manera, 
+'''
+http://localhost:8000/api/delTracks/?id=1611056166
+'''
+
+- Y le resultado es en formato json.
+---
+
+---
+
+
